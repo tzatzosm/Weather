@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A00A16727523619001E31ED /* 010-day_weatherwidget.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "010-day_weatherwidget.webp"; sourceTree = "<group>"; };
 		0A3410D3275232DB0023C28B /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3410D6275232DB0023C28B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A3410D8275232DB0023C28B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 		0A3410D5275232DB0023C28B /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				0A00A16727523619001E31ED /* 010-day_weatherwidget.webp */,
 				0A3410D6275232DB0023C28B /* AppDelegate.swift */,
 				0A3410D8275232DB0023C28B /* ViewController.swift */,
 				0A3410DA275232DC0023C28B /* Assets.xcassets */,
@@ -158,7 +160,6 @@
 				B8FE2B53010BF0628345EB19 /* Pods-WeatherTests.debug.xcconfig */,
 				E2828CB0444C070BAD48CD32 /* Pods-WeatherTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

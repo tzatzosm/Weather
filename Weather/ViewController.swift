@@ -9,9 +9,17 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var titleStackView: NSStackView!
+    @IBOutlet weak var titleLabel: NSTextField!
+    @IBOutlet weak var subtitleLabel: NSTextField!
+
+    @IBOutlet weak var contentView: NSView!
+    @IBOutlet weak var backgroundImageView: NSImageView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        contentView.wantsLayer = true
+        contentView.layer?.backgroundColor = NSColor.darkGray.cgColor
         // Do any additional setup after loading the view.
     }
 
